@@ -160,10 +160,12 @@ main {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  align-items: self-start;
 }
 .title {
   text-align: center;
   margin-bottom: 4rem;
+  padding-top: 10vh;
 }
 .underline {
   height: 0.25rem;
@@ -269,4 +271,9 @@ main {
 .random-btn:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
+}
+
+.manual {
+  border: solid black;
+  padding: 10vh 25vw;
 }
